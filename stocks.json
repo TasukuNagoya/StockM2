@@ -1,23 +1,35 @@
 {
     "refresh_seconds": 60,
     "stocks": [
-               {
+        {
             "code": "4527.T",
             "name": "ロート製薬",
-            "min": 2000,
-            "max": 3500
+            "min": 2000.0,
+            "max": 3000.0
         },
         {
             "code": "9984.T",
             "name": "ソフトバンクグループ",
-            "min": 4000,
-            "max": 8000
+            "min": 6000.0,
+            "max": 7000.0
         },
         {
             "code": "9433.T",
             "name": "KDDI",
             "min": 2500,
             "max": 3500
+        },
+        {
+            "code": "9412.T",
+            "name": "スカパーJSAT",
+            "min": 1500.0,
+            "max": 2100.0
+        },
+        {
+            "code": "9432.T",
+            "name": "NTT",
+            "min": 140,
+            "max": 180
         },
         {
             "code": "NVDA",
@@ -47,12 +59,6 @@
             "code": "SPCX",
             "name": "SpaceX",
             "min": 120,
-            "max": 180
-        },
-        {
-            "code": "9432.T",
-            "name": "NTT",
-            "min": 140,
             "max": 180
         }
     ]
