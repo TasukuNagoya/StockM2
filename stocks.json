@@ -1,0 +1,59 @@
+{
+    "refresh_seconds": 60,
+    "stocks": [
+               {
+            "code": "4527.T",
+            "name": "ロート製薬",
+            "min": 2000,
+            "max": 3500
+        },
+        {
+            "code": "9984.T",
+            "name": "ソフトバンクグループ",
+            "min": 4000,
+            "max": 8000
+        },
+        {
+            "code": "9433.T",
+            "name": "KDDI",
+            "min": 2500,
+            "max": 3500
+        },
+        {
+            "code": "NVDA",
+            "name": "NVIDIA",
+            "min": 100,
+            "max": 250
+        },
+        {
+            "code": "QCOM",
+            "name": "Qualcomm",
+            "min": 100,
+            "max": 250
+        },
+        {
+            "code": "KTOS",
+            "name": "Kratos Defense",
+            "min": 30,
+            "max": 100
+        },
+        {
+            "code": "AVGO",
+            "name": "Broadcom",
+            "min": 250,
+            "max": 450
+        },
+        {
+            "code": "SPCX",
+            "name": "SpaceX",
+            "min": 120,
+            "max": 180
+        },
+        {
+            "code": "9432.T",
+            "name": "NTT",
+            "min": 140,
+            "max": 180
+        }
+    ]
+}
