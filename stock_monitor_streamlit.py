@@ -119,7 +119,7 @@ with left:
 with right:
     st.write(f"設定上の更新間隔: **{refresh_seconds} 秒**")
 
-st.subheader("現在の株価")
+st.subheader("On-Going Stock")
 
 # Streamlit 1.37+ の fragment 自動更新。
 @st.fragment(run_every=f"{max(refresh_seconds, 10)}s")
