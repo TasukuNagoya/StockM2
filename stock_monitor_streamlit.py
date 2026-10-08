@@ -146,7 +146,7 @@ def price_panel():
 price_panel()
 
 st.divider()
-st.subheader("⚙️ 銘柄・上下限設定")
+st.subheader("⚙️ Mon・Upper/Lower設定")
 st.write("表を直接編集できます。銘柄の追加・削除も可能です。")
 
 edit_df = pd.DataFrame(stocks, columns=["code", "name", "min", "max"])
