@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 import yfinance as yf
 
-st.set_page_config(page_title="株価モニター", page_icon="📈", layout="wide")
+st.set_page_config(page_title="Stock Mon", page_icon="📈", layout="wide")
 
 BASE_DIR = Path(__file__).resolve().parent
 CONFIG_FILE = BASE_DIR / "stocks.json"
@@ -108,7 +108,7 @@ config = st.session_state.config
 stocks = config.get("stocks", [])
 refresh_seconds = int(config.get("refresh_seconds", 60))
 
-st.title("📈 株価モニター")
+st.title("📈 Stock Mon")
 st.caption("Yahoo Finance (yfinance) から株価を取得します。")
 
 left, right = st.columns([1, 3])
